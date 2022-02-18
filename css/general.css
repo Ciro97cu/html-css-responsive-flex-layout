@@ -43,6 +43,10 @@ body {
     background-color: white;
 }
 
+.bgc-darkgrey {
+    background-color: #333333;
+}
+
 /* css rules text formatting */
 .ta-center {
     text-align: center;
@@ -55,6 +59,10 @@ body {
 /* css rules text colors */
 .c-white {
     color: white;
+}
+
+.c-yellow {
+    color: #ffc068;
 }
 
 .c-azure {

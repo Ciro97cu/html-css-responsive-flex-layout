@@ -199,3 +199,72 @@ header .content-header ul {
     align-self: flex-start;
     border-radius: 20px;
 }
+
+/***** section about *****/
+#about {
+    padding: 50px 0px;
+}
+
+.container-about {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.about-content .img-about {
+    width: 60%;
+}
+
+.about-content .img-about img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about-content a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    align-self: flex-start;
+}
+
+/***** section start *****/
+#start {
+    padding: 50px 0;
+}
+
+#start .centering-80 > * {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#start .centering-80 > a {
+    padding: 10px 0;
+    display: block;
+    border-radius: 25px;
+}
+
+#start .centering-80 > em {
+    display: block;
+    margin-top: 20px;
+    font-size: 0.75rem;
+}
+
+/***** footer *****/
+footer {
+    padding: 50px 0;
+}
+
+footer .centering-80 > * {
+    margin: 20px 0;
+    text-align: center;
+}
+
+footer .centering-80 > em {
+    display: block;
+    font-size: 0.75rem;
+}
