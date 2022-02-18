@@ -1,0 +1,82 @@
+/***** header *****/
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+
+header .content-header ul {
+    display: none;
+}
+
+.content-header button {
+    background-color: transparent;
+    border: none;
+}
+
+/***** section demo *****/
+#demo {
+    padding: 50px 0;
+}
+
+#demo .content-demo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#demo .credit-demo {
+    padding: 20px 0;    
+}
+
+.flex-child-demo {
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+.flex-child-demo > .centering-90 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.flex-child-demo > .centering-90 .text-app-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.flex-child-demo a {
+    align-self: flex-start;
+    padding: 5px 20px;
+    background-color: #0084fd;
+    border-radius: 20px;
+}
+
+.img-long {
+    background-color: white;
+    height: 300px;
+    width: 200px;
+    align-self: center;
+}
+
+.flex-child-demo2 {
+    border-radius: 20px;
+    padding: 20px 0;
+}
+
+.flex-child-demo2 > .centering-90 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.flex-child-demo2 > .centering-90 > * {
+    text-align: center;
+}
+
+/***** section idea *****/
+#idea {
+    background-color: ;
+}
