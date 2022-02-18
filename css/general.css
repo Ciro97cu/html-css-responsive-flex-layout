@@ -3,8 +3,69 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 body {
     font-size: 16px;
+}
+
+/***** css rules background-color *****/
+.bgc-azure {
+    background-color: #0084fd;
+}
+
+.bgc-sky {
+    background-color: #b9dbfe;
+}
+
+.bgc-green {
+    background-color: #caefdb;
+}
+
+.bgc-salmon {
+    background-color: #fed2d1;
+}
+
+.bgc-orange {
+    background-color: #ffe7c3;
+}
+
+.bgc-purple {
+    background-color: #d5d4f4;
+}
+
+.bgc-purple2 {
+    background-color: #9692e6;
+}
+
+
+/* css rules text formatting */
+.ta-center {
+    text-align: center;
+}
+
+.tdn {
+    text-decoration: none;
+}
+
+/* css rules text colors */
+.c-white {
+    color: white;
+}
+
+/* css rules to remove bullets */
+ul {
+    list-style-type: none;
+}
+
+/***** css rules centering content *****/
+.centering-90 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.centering-80 {
+    width: 80%;
+    margin: 0 auto;
 }
