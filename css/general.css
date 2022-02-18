@@ -39,6 +39,9 @@ body {
     background-color: #9692e6;
 }
 
+.bgc-white {
+    background-color: white;
+}
 
 /* css rules text formatting */
 .ta-center {
@@ -52,6 +55,46 @@ body {
 /* css rules text colors */
 .c-white {
     color: white;
+}
+
+.c-azure {
+    color: #0084fd;
+}
+
+.c-azure2 {
+    color: #5182ab;
+}
+
+.c-green {
+    color: #54c688;
+}
+
+.c-green2 {
+    color: #628d73;
+}
+
+.c-salmon {
+    color: #fd898a;
+}
+
+.c-salmon2 {
+    color: #8c5e5e;
+}
+
+.c-orange {
+    color: #ffc162;
+}
+
+.c-orange2 {
+    color: #a18965;
+}
+
+.c-purple {
+    color: #9692e6;
+}
+
+.c-purple2 {
+    color: #6b678f;
 }
 
 /* css rules to remove bullets */

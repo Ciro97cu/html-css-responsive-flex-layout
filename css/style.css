@@ -56,7 +56,7 @@ header .content-header ul {
 .img-long {
     background-color: white;
     height: 300px;
-    width: 200px;
+    width: 70%;
     align-self: center;
 }
 
@@ -79,4 +79,49 @@ header .content-header ul {
 /***** section idea *****/
 #idea {
     padding: 50px 0;
+}
+
+.container-section-idea {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.first-idea, 
+.second-idea > .centering-90 {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-idea {
+    row-gap: 30px;
+}
+
+.square-img-idea {
+    height: 200px;
+    width: auto;
+    background-color: white;
+}
+
+.second-idea {
+    border-radius: 20px;
+}
+
+.second-idea > .centering-90 {
+    align-items: center;
+    padding: 20px 0;
+    row-gap: 20px;
+}
+
+.square-bid-idea {
+    height: 300px;
+    width: 100%;
+    background-color: black;
+}
+
+.second-idea > .centering-90 > button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
 }
