@@ -129,3 +129,12 @@ ul {
     width: 80%;
     margin: 0 auto;
 }
+
+/***** transition and hover on a element *****/
+a {
+    transition: opacity 0.25s ease-in;
+}
+
+a:hover {
+    opacity: 0.7;
+}
