@@ -134,49 +134,27 @@
     }
 
     /***** testimonials *****/
-    .testimonials-content > .centering-90 {
-        flex-direction: row;
-        text-align: left;
-        column-gap: 30px;
-        row-gap: 0;
-    }
-    
-    .img-testimonials {
-        width: 25%;
-    }
-
-    .text-testimonials {
-        width: calc(75% - 30px);
+    #testimonials > .centering-80 {
+        width: 50%;
     }
 
     /***** section benefict *****/
-    .container-benefict {
-        flex-flow: row wrap;
-        gap: 30px;
+    #benefict .centering-80 {
+        width: 60%;
     }
 
     .benefict-item {
-        flex: 1 1 calc(100% / 2 - 30px);
+        flex: 1 1 calc(100% / 3 - 30px);
     }
 
     /***** section about *****/
-    .container-about {
-        flex-direction: row;
-        row-gap: 0;
-        column-gap: 20px;
-    }
-
-    .about-content:first-child {
-        width: 85%;
-    }
-
-    .about-content:nth-child(2) {
-        width: calc(100% / 2 - 20px)
+    #about .centering-80 {
+        width: 60%;
     }
 
     /***** section start *****/
     #start .centering-80 {
-        width: 50%;
+        width: 30%;
     }
 
     #start .centering-80 > a {
@@ -185,7 +163,7 @@
     
     /* footer */
     footer .centering-80 {
-        width: 50%;
+        width: 30%;
     }
 
 }
