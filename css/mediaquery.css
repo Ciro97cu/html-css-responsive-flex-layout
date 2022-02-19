@@ -36,5 +36,34 @@
     .benefict-item {
         flex: 1 1 calc(100% / 2 - 30px);
     }
+
+    /***** section about *****/
+    .container-about {
+        flex-direction: row;
+        row-gap: 0;
+        column-gap: 20px;
+    }
+
+    .about-content:first-child {
+        width: 85%;
+    }
+
+    .about-content:nth-child(2) {
+        width: calc(100% / 2 - 20px)
+    }
+
+    /***** section start *****/
+    #start .centering-80 {
+        width: 50%;
+    }
+
+    #start .centering-80 > a {
+        width: 30%;
+    }
     
+    /* footer */
+    footer .centering-80 {
+        width: 50%;
+    }
+
 }

@@ -10,6 +10,10 @@ body {
     font-size: 16px;
 }
 
+p {
+    line-height: 30px;
+}
+
 /***** css rules background-color *****/
 .bgc-azure {
     background-color: #0084fd;
