@@ -65,8 +65,13 @@ p {
     color: white;
 }
 
+.c-black {
+    color: black;
+}
+
 .c-yellow {
     color: #ffc068;
+    font-size: 3rem;
 }
 
 .c-azure {
